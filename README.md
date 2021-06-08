@@ -1,4 +1,4 @@
-# Renamer-Bot
+# TG-Renamer-Bot v3
 I think this repo gonna become one of the best renamer open source 🥰.
 
 Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
