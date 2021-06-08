@@ -4,14 +4,14 @@ logger = logging.getLogger(__name__)
 from ..config import Config
 from ..tools.text import TEXT
 from ..database.database import *
-from pyrogram import Client as RenamerNs, filters
+from pyrogram import Client as Compass_Botz, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
 
 
 ################## Help command ##################
 
-@RenamerNs.on_message(filters.command("help") & filters.private & filters.incoming)
+@Compass_Botz.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
         InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
@@ -37,12 +37,12 @@ async def help(c, m, cb=False):
 
 ################## start commamd ##################
 
-@RenamerNs.on_message(filters.command("start") & filters.private & filters.incoming)
+@Compass_Botz.on_message(filters.command("start") & filters.private & filters.incoming)
 async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
-    owner_username = owner.username if owner.username else 'Ns_bot_updates'
+    owner_username = owner.username if owner.username else 'Compass_Botz'
     button = [[
-        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} My Owner', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} Developer', url=f'https://t.me/{owner_username}'),
         InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
         ],[
         InlineKeyboardButton(f'{INFORMATION} Help', callback_data="help"),
@@ -66,7 +66,7 @@ async def start(c, m, cb=False):
 
 ################## about command ##################
 
-@RenamerNs.on_message(filters.command("about") & filters.private & filters.incoming)
+@Compass_Botz.on_message(filters.command("about") & filters.private & filters.incoming)
 async def about(c, m, cb=False):
     me = await c.get_me()
     owner = await c.get_users(Config.OWNER_ID)
@@ -95,7 +95,7 @@ async def about(c, m, cb=False):
 
 ################## Mode command ##################
 
-@RenamerNs.on_message(filters.command("mode") & filters.private & filters.incoming)
+@Compass_Botz.on_message(filters.command("mode") & filters.private & filters.incoming)
 async def set_mode(c, m):
     upload_mode = (await get_data(m.from_user.id)).upload_mode
     if upload_mode:
@@ -109,7 +109,7 @@ async def set_mode(c, m):
 
 ################## reset command ##################
 
-@RenamerNs.on_message(filters.command("reset") & filters.private & filters.incoming)
+@Compass_Botz.on_message(filters.command("reset") & filters.private & filters.incoming)
 async def reset_user(c, m):
     if m.from_user.id in Config.AUTH_USERS:
         if len(m.command) == 2:
@@ -132,7 +132,7 @@ async def reset_user(c, m):
 
 ################## login command ##################
 
-@RenamerNs.on_message(filters.command('login') & filters.incoming & filters.private)
+@Compass_Botz.on_message(filters.command('login') & filters.incoming & filters.private)
 async def password(c, m):
     if Config.BOT_PASSWORD:
         if m.from_user.id in Config.AUTH_USERS:
