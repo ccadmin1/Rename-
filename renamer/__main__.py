@@ -17,7 +17,7 @@ from pyromod import listen
 
 def main():
 
-    Renamer = Client("Renamer_NsBot",
+    Renamer = Client("Compass_Botz",
                  bot_token=Config.BOT_TOKEN,
                  api_id=Config.API_ID,
                  api_hash=Config.API_HASH,
@@ -27,16 +27,16 @@ def main():
     Renamer.start()
     me = Renamer.get_me()
 
-    startup_msg = f"Successfully deployed your Renamer at @{me.username}\n"
-    startup_msg += f"Pyrogram Version: V{__version__}\n"
-    startup_msg += f"Python Version: V{platform.python_version()}\n\n"
-    startup_msg += "Thanks for deploying our bot. Please give a star to my repo and join @Ns_bot_updates."
+    startup_msg = f"⚡ Boot Successfull at @{me.username}\n"
+    startup_msg += f"Pyrogram Version: v{__version__}\n"
+    startup_msg += f"Python Version: v{platform.python_version()}\n\n"
+    startup_msg += "Deploying has been done. Follow Our Channel @Compass_Botz"
     print(startup_msg)
 
     idle()
 
     Renamer.stop()
-    print("Ok bye bye 😢.")
+    print("⛔ Bot Stopped ⛔")
 
 if __name__ == "__main__":
     main()
