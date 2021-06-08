@@ -12,14 +12,14 @@ from ..tools.thumbnail_fixation import fix_thumb
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from ..database.database import *
-from pyrogram import Client as RenamerNs, filters
+from pyrogram import Client as Compass_Botz, filters
 from pyrogram.errors import PeerIdInvalid, ChannelInvalid, FloodWait
 from pyrogram.emoji import *
 
 
-@RenamerNs.on_message((filters.document|filters.video) & filters.private & filters.incoming)
+@Compass_Botz.on_message((filters.document|filters.video) & filters.private & filters.incoming)
 async def media(c, m):
-    """Checking and Processing the renaming"""
+    """Checking and Processing the Renaming"""
 
     if Config.BANNED_USERS:
         if m.from_user.id in Config.BANNED_USERS:
@@ -59,7 +59,7 @@ async def media(c, m):
         except PeerIdInvalid:
             logger.warning("Give the correct Channel or Group ID.")
         except ChannelInvalid:
-            logger.warning("Add the bot in the Trace Channel or Group as admin to send details of the users using your bot")
+            logger.warning("Add the bot in the Trace Channel or Group as Admin to send details of the users using your bot")
         except Exception as e:
             logger.warning(e)
 
