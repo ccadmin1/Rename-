@@ -17,8 +17,6 @@ Please Give a ⭐ if you like this repo and also try following me for more best 
 
 [Available Commands 🤖](https://github.com/Ns-Bots/TG-RENAMER-BOT#available-commands-)
 
-[Dev 🧑‍💻](https://github.com/Ns-Bots/TG-RENAMER-BOT#dev-)
-
 [TODO 🤧](https://github.com/Ns-Bots/TG-RENAMER-BOT#todo-)
 
 [Thanks And Credits 🎉](https://github.com/Ns-Bots/TG-RENAMER-BOT#thanks-and-credits-)
@@ -81,16 +79,6 @@ reset - (admins only) reset users database
 login - (when password is given) to login to bot
 ```
 
-## Dev 🧑‍💻
-<p align="middle">
-<img src="https://telegra.ph/file/c35579b3aef1248e2a130.jpg" width="250" height="350"><br>
-<img src="https://badgen.net/badge/Name/Anonymous/FF33FF?icon=awesome&labelColor=0080FF"></a>
-<img src="https://badgen.net/badge/Skills/python/purple?icon=terminal&labelColor=red"></a>
-<a href="https://telegram.dog/Ns_Anonymous"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
-<a href="https://github.com/Ns-AnoNymouS"><img src="https://badgen.net/badge/Follow%20on%20/GitHub/80FF00?icon=github&labelColor=black"></a>
-<a href="https://youtube.com/channel/UC9NnqJ63aSzv457iUMM06vQ"><img src="https://img.shields.io/badge/YouTube-Channel-FF3333.svg?logo=youtube&logoColor=FF3333"></a>
-<p align="left">
-</p>
 
 ## TODO 🤧
 - [ ] Adding broadcast command 
@@ -101,5 +89,3 @@ login - (when password is given) to login to bot
 [SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
 
 [Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
-
-[MaheshMalekar ❤](https://telegram.dog/MaheshMalekar) for teaching me python
