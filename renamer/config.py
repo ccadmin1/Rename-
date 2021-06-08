@@ -6,7 +6,7 @@ logger = logging.getLogger(__name__)
 class Config:
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH")
-    OWNER_ID =  int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID =  int(os.environ.get("OWNER_ID", "677682427"))
     AUTH_USERS = list(int(i) for i in os.environ.get("AUTH_USERS", "").split(" ")) if os.environ.get("AUTH_USERS", "") else []
     if OWNER_ID not in AUTH_USERS:
         AUTH_USERS.append(OWNER_ID)
@@ -21,7 +21,7 @@ class Config:
         TIME_GAP = int(os.environ.get("TIME_GAP", "")) if os.environ.get("TIME_GAP", "") else None
     except:
         TIME_GAP = None
-        logger.warning("Give the timegap in seconds. Dont use letters 😑")
+        logger.warning("Give the timegap in seconds. ☢️ Use Numbers")
     TIME_GAP_STORE = {}
     try:
         TRACE_CHANNEL = int(os.environ.get("TRACE_CHANNEL")) if os.environ.get("TRACE_CHANNEL", "") else None
