@@ -3,8 +3,8 @@ I think this repo gonna become one of the best renamer open source 🥰.
 
 Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github)](https://github.com/Ns-Bots/TG-RENAMER-BOT)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Ns_AnoNymouS)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Ns_AnoNymouS)
+[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Dlaize)
+[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Compass_Botz)
 
 ## Mapping
 [Deploy to Heroku 🗳](https://github.com/Ns-Bots/TG-RENAMER-BOT#deploy-to-heroku-)
@@ -24,7 +24,7 @@ Please Give a ⭐ if you like this repo and also try following me for more best 
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Ns-Bots/TG-RENAMER-BOT)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/New-TG-Rename-Bot)
 
 ## Bot Features 🔥
 - Renaming Telegram files as file or video.
@@ -49,7 +49,7 @@ Press the following button to deploy in heroku.
 
 - `BOT_TOKEN:` Get the bot token from [Bot Father <img src="https://telegra.ph/file/8d80c13110506bf1cb58e.jpg" width="30" height="30">](https://telegram.dog/BotFather)
 
-- `OWNER_ID:` Your Telegram user id, Get this value from [@FileStore_Nsbot](https://telegram.dog/FileStore_Nsbot)
+- `OWNER_ID:` Your Telegram user id, Get this value from [@MissRose_bot](https://telegram.dog/MissRose_bot)
 
 
 ## Optional Vars 💬
