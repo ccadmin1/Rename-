@@ -1,7 +1,7 @@
 {
-    "name": "TG Renamer Bot",
-    "description": "The Telegram file renamer bot based on Pyrogram.",
-    "logo": "https://telegra.ph/file/8324a0863fed98d4dfb6c.jpg",
+    "name": "TG Renamer Bot v3",
+    "description": "Telegram file Renamer Bot. Create your Own Fork.",
+    "logo": "",
 
     "keywords": [
         "telegram",
@@ -10,10 +10,10 @@
         "renamer"
     ],
 
-    "repository": "https://github.com/Ns-AnoNymouS/Renamer",
+    "repository": "https://github.com/dakshkohli23/New-TG-Rename-Bot",
     "stack": "heroku-20",
-    "website": "https://t.me/Ns_bot_updates",
-    "success_url": "https://t.me/RenamerNs_bot",
+    "website": "https://t.me/Compass_botz",
+    "success_url": "https://t.me/Compass_botz",
 
     "env": {
         "API_HASH": {
@@ -23,11 +23,11 @@
             "description": "Your API_ID, Get it from https://my.telegram.org/"
         },
         "AUTH_USERS": {
-            "description": "list of Auth users who can access bot without password and have rights to use admin commands",
+            "description": "List of Auth users who can access bot without password and have rights to use admin commands",
             "required": false
         },
         "BANNED_USERS": {
-            "description": "list of banned users whom you want to stop from using your bot sperate each user by whitespace.",
+            "description": "List of Banned users whom you want to stop from using your bot sperate each user by whitespace.",
             "required": false
         },
         "BOT_TOKEN": {
