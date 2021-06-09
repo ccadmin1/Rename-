@@ -22,21 +22,21 @@ class TEXT:
 ** ➜ Source Code:** [Press Me](https://github.com/dakshkohli23/New-TG-Rename-Bot)
 """
 
-    HELP_USER = """**Follow Below Steps:**
+    HELP_USER = """**🚨 ᴏʜ! ʏᴏᴜ ɴᴇᴇᴅ ʜᴇʟᴘ!**
    
-➜ Use /mode command to change upload mode.
-➜ Send a photo to set as permanent thumbnail.
-➜ Now send me the Telegram file you want to rename.
-➜ Send the new name when bot ask.
+➜ ᴜꜱᴇ /ᴍᴏᴅᴇ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴄʜᴀɴɢᴇ ᴜᴘʟᴏᴀᴅ ᴍᴏᴅᴇ.
+➜ ꜱᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ꜱᴇᴛ ᴀꜱ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ.
+➜ ɴᴏᴡ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ꜰɪʟᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇɴᴀᴍᴇ.
+➜ ꜱᴇɴᴅ ᴛʜᴇ ɴᴇᴡ ɴᴀᴍᴇ ᴡʜᴇɴ ʙᴏᴛ ᴀꜱᴋ.
 
-For Source Code check About Section!
+ꜰᴏʀ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ꜱᴇᴄᴛɪᴏɴ! - (/ᴀʙᴏᴜᴛ)
 """
 
-    START_TEXT = """Hey! {user_mention},
-I'm Telegram Renamer Bot with Permanent Thumbnail support!⚡.
+    START_TEXT = """ʜᴇʏ! {user_mention},
+ɪ'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ!⚡.
 
 <b>Do /help for more Details ...</b>
-**Maintained By:** {bot_owner}
+**ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:** {bot_owner}
 """
 
 
