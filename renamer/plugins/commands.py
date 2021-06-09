@@ -14,10 +14,10 @@ from pyrogram.emoji import *
 @Compass_Botz.on_message(filters.command("help") & filters.private & filters.incoming)
 async def help(c, m, cb=False):
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
+        InlineKeyboardButton(f'⚡ Home', callback_data='back'),
         InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} 𝙲𝚕𝚘𝚜𝚎', callback_data='close')
+        InlineKeyboardButton(f'✖️ 𝙲𝚕𝚘𝚜𝚎', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -62,6 +62,7 @@ async def start(c, m, cb=False):
             reply_markup=reply_markup,
             quote=True
         ) 
+        await m.reply_sticker(sticker="CAACAgUAAxkBAAECXWJgtiefn2bNuYvjcasry5Lq-mzdswACRQUAAo8k-yWDStn_vuRiJx8E", quote=True)
 
 
 ################## about command ##################
