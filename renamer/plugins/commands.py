@@ -42,11 +42,11 @@ async def start(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
     owner_username = owner.username if owner.username else 'Compass_Botz'
     button = [[
-        InlineKeyboardButton(f'{MAN_TEACHER_LIGHT_SKIN_TONE} Developer', url=f'https://t.me/{owner_username}'),
-        InlineKeyboardButton(f'{ROBOT} About', callback_data='about')
+        InlineKeyboardButton(f'👨‍💻 Developer', url=f'https://t.me/{owner_username}'),
+        InlineKeyboardButton(f'❗ About', callback_data='about')
         ],[
-        InlineKeyboardButton(f'{INFORMATION} Help', callback_data="help"),
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
+        InlineKeyboardButton(f'💬 Help', callback_data="help"),
+        InlineKeyboardButton(f'✖️ Close', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -72,10 +72,10 @@ async def about(c, m, cb=False):
     owner = await c.get_users(Config.OWNER_ID)
 
     button = [[
-        InlineKeyboardButton(f'{HOUSE_WITH_GARDEN} Home', callback_data='back'),
-        InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
+        InlineKeyboardButton(f'⚡ Home', callback_data='back'),
+        InlineKeyboardButton(f'💰 Donate', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'{NO_ENTRY} Close', callback_data="close")
+        InlineKeyboardButton(f'✖️ Close', callback_data="close")
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -100,10 +100,10 @@ async def set_mode(c, m):
     upload_mode = (await get_data(m.from_user.id)).upload_mode
     if upload_mode:
         await update_mode(m.from_user.id, False)
-        text = f"From Now all files will be **Uploaded as Video** {VIDEO_CAMERA}"
+        text = f"From Now all files will be **Uploaded as Video 🎞️** {VIDEO_CAMERA}"
     else:
         await update_mode(m.from_user.id, True)
-        text = f"From Now all files will be **Uploaded as Files** {FILE_FOLDER}"
+        text = f"From Now all files will be **Uploaded as Files 📁** {FILE_FOLDER}"
     await m.reply_text(text, quote=True)
     
 
@@ -126,7 +126,7 @@ async def reset_user(c, m):
         else:
             await m.reply_text('Use this command in the format `/reset user_id`')
     else:
-        await m.reply_sticker(sticker="CAACAgIAAx0CVjDmEQACS3lgvEO2HpojwIQe8lqa4L66qEnDzQACjAEAAhZCawq6dimcpGB-fx8E", quote=True)
+        await m.reply_sticker(sticker="CAACAgQAAxkBAAECZ4pgwMEL30OnKyxB01xnYzWkuQy37gACYgIAAktp7hBRdueOAXw_Eh8E", quote=True)
         await m.reply_text(text="You are not admin to use this command.")
 
 
@@ -151,7 +151,7 @@ async def password(c, m):
                 await m.reply_text(text=LOCKED_WITH_KEY, quote=True)
                 await m.reply_text(f'Logged Sucessfully to the bot.\nEnjoy the bot now {FACE_SAVORING_FOOD}.', quote=True)
             else:
-                await m.reply_sticker(sticker="CAACAgQAAxkBAAIlHWC8WTwz55v_w0laDRuSrwL2oWRTAALtDAACYLUpUtRT8sziJp59HwQ", quote=True)
+                await m.reply_sticker(sticker="CAACAgUAAxkBAAECZ4xgwMFgDJ2Y2VjT-mP8tarDHPllGwACXgUAAo8k-yVXChZTI-azSR8E", quote=True)
                 return await m.reply_text(f'Incorrect password', quote=True)
     else:
         await m.reply_text(f'**This bot was publicly available to all {SMILING_FACE_WITH_HEARTS}.**\nIf you are the owner of the bot to make bot private add bot password in Config Vars {LOCKED_WITH_KEY}.', quote=True)
