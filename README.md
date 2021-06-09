@@ -7,19 +7,19 @@ Please Give a ⭐ if you like this repo and also try following me for more best 
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Compass_Botz)
 
 ## Mapping
-[Deploy to Heroku 🗳](https://github.com/Ns-Bots/TG-RENAMER-BOT#deploy-to-heroku-)
+[Deploy to Heroku 🗳](https://github.com/dakshkohli23/New-TG-Rename-Bot#deploy-to-heroku-)
 
-[Bot Features 🔥](https://github.com/Ns-Bots/TG-RENAMER-BOT#bot-features-)
+[Bot Features 🔥](https://github.com/dakshkohli23/New-TG-Rename-Bot#bot-features-)
 
-[Required Vars 💥](https://github.com/Ns-Bots/TG-RENAMER-BOT#required-vars-)
+[Required Vars 💥](https://github.com/dakshkohli23/New-TG-Rename-Bot#required-vars-)
 
-[Optional Vars 💬](https://github.com/Ns-Bots/TG-RENAMER-BOT#optional-vars-)
+[Optional Vars 💬](https://github.com/dakshkohli23/New-TG-Rename-Bot#optional-vars-)
 
-[Available Commands 🤖](https://github.com/Ns-Bots/TG-RENAMER-BOT#available-commands-)
+[Available Commands 🤖](https://github.com/dakshkohli23/New-TG-Rename-Bot#available-commands-)
 
-[TODO 🤧](https://github.com/Ns-Bots/TG-RENAMER-BOT#todo-)
+[TODO 🤧](https://github.com/dakshkohli23/New-TG-Rename-Bot#todo-)
 
-[Thanks And Credits 🎉](https://github.com/Ns-Bots/TG-RENAMER-BOT#thanks-and-credits-)
+[Thanks And Credits 🎉](https://github.com/dakshkohli23/New-TG-Rename-Bot#thanks-and-credits-)
 
 ## Deploy to Heroku 🗳
 Press the following button to deploy in heroku.
