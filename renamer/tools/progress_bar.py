@@ -24,7 +24,7 @@ async def progress_bar(current, total, status_msg, start, msg):
             )
         current_message = f"""**{status_msg}** - {round(percentage, 2)}%
 **┣**{progressbar}
-**┣⊸⌊ꜱᴛᴀᴛᴜꜱ⌉** {humanbytes(speed)}/s
+**┣⊸⌊ꜱᴘᴇᴇᴅ⌉** {humanbytes(speed)}/s
 **┣⊸⌊ᴅᴏɴᴇ⌉** {humanbytes(current)}
 **┣⊸⌊ꜱɪᴢᴇ⌉** {humanbytes(total)}
 **┣⊸⌊ᴇᴛᴀ⌉** {time_to_complete}
