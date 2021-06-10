@@ -10,9 +10,18 @@
 
 <p align="center"><a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"><img src="https://telegra.ph/file/4b30927369949d360d608.png"></a></p>
 
+<p align="center">
+    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/codacy/grade/4d58f2a402b54aed8a7d95f7add45a81?color=FFC75F&logo=codacy&logoColor=FFC75F&style=for-the-badge" alt="Codacy" /></a>
+    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"> <img src="https://img.shields.io/github/repo-size/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/commits"> <img src="https://img.shields.io/github/last-commit/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/issues"> <img src="https://img.shields.io/github/issues/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>
+    <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/network/members"> <img src="https://img.shields.io/github/forks/dakshkohli23/New-TG-Rename-Bot?color=FFC75F&logo=github&logoColor=FFC75F&style=for-the-badge" /></a>  
+    <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=FFC75F&label=telethon&logo=python&logoColor=FFC75F&style=for-the-badge" /></a>
+</p>
+
 Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github)](https://github.com/Ns-Bots/TG-RENAMER-BOT)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)](https://telegram.dog/Dlaize)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github&style=for-the-badge)](https://github.com/dakshkohli23/New-TG-Rename-Bot)
+[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)&style=for-the-badge](https://telegram.dog/Dlaize)
 [![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Compass_Botz)
 
 ## Mapping
