@@ -17,7 +17,7 @@ async def help(c, m, cb=False):
         InlineKeyboardButton(f'⚡ Home', callback_data='back'),
         InlineKeyboardButton(f'{MONEY_BAG} Donate', callback_data='donate')
         ],[
-        InlineKeyboardButton(f'✖️ 𝙲𝚕𝚘𝚜𝚎', callback_data='close')
+        InlineKeyboardButton(f'✖️ Close', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(button)
     if cb:
@@ -102,10 +102,10 @@ async def set_mode(c, m):
     upload_mode = (await get_data(m.from_user.id)).upload_mode
     if upload_mode:
         await update_mode(m.from_user.id, False)
-        text = f"From Now all files will be **Uploaded as Video 🎞️** {VIDEO_CAMERA}"
+        text = f"ꜰʀᴏᴍ ɴᴏᴡ ᴀʟʟ ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ **ᴜᴘʟᴏᴀᴅᴇᴅ ᴀꜱ ᴠɪᴅᴇᴏ 🎞️** {VIDEO_CAMERA}"
     else:
         await update_mode(m.from_user.id, True)
-        text = f"From Now all files will be **Uploaded as Files 📁** {FILE_FOLDER}"
+        text = f"ꜰʀᴏᴍ ɴᴏᴡ ᴀʟʟ ꜰɪʟᴇꜱ ᴡɪʟʟ ʙᴇ **ᴜᴘʟᴏᴀᴅᴇᴅ ᴀꜱ ꜰɪʟᴇꜱ 📜** {FILE_FOLDER}"
     await m.reply_text(text, quote=True)
     
 
