@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>TG Rename Bot v3</b></h1>
+<h1 align="center"><b>Naruto Rename Bot</b></h1>
 <h4 align="center">Telegram File Renamer Bot With Permanent Thumbnail Support</h4>
 
 <p align='center'>
