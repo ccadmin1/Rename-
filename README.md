@@ -4,8 +4,8 @@
 ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ ɪꜱ ᴍʏ ɴɪɴᴊᴀ ᴡᴀʏ!⚡.</h4>
 
 <p align='center'>
-  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-fb3640.svg?style=flat-square&logo=python&logoColor=fb3640&color=fb3640" /> </a>
-  <a href="https://github.com/dakshkohli23/Sharingan-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=fb3640&color=fb3640" /> </a>
+  <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-fb3640.svg?style=flat-square&logo=python&logoColor=FFC75F&color=FFC75F" /> </a>
+  <a href="https://github.com/dakshkohli23/New-TG-Rename-Bot/" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-Yes-green.svg?style=flat-square&logo=serverless&logoColor=FFC75F&color=FFC75F" /> </a>
 </p>
 
 <p align="center"><a href="https://github.com/dakshkohli23/New-TG-Rename-Bot"><img src="https://telegra.ph/file/4b30927369949d360d608.png"></a></p>
