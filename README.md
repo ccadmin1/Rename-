@@ -19,9 +19,6 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=FFC75F&label=telethon&logo=python&logoColor=FFC75F&style=for-the-badge" /></a>
 </p>
 
-Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github&style=for-the-badge)](https://github.com/dakshkohli23/New-TG-Rename-Bot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg&style=for-the-badge)](https://telegram.dog/Dlaize)
 
 ## Mapping
 [Deploy to Heroku 🗳](https://github.com/dakshkohli23/New-TG-Rename-Bot#deploy-to-heroku-)
