@@ -1,6 +1,6 @@
 {
     "name": "TG Renamer Bot v3",
-    "description": "Telegram file Renamer Bot. Create your Own Fork.",
+    "description": "Naruto Telegram file Renamer Bot. Create your Own Fork.",
     "logo": "",
 
     "keywords": [
@@ -46,7 +46,7 @@
             "required": false
         },
         "OWNER_ID": {
-            "description": "Your Telegram user id, Get this from @FileStore_Nsbot."
+            "description": "Your Telegram user id, Get this from @MissRose_bot."
         },
         "ENV": {
             "description": "Set it to anything to enable configuration by environment variables.",
