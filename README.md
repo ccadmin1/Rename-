@@ -21,8 +21,7 @@
 
 Please Give a ⭐ if you like this repo and also try following me for more best open source codes<br><br>
 [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/blue?icon=github&style=for-the-badge)](https://github.com/dakshkohli23/New-TG-Rename-Bot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg)&style=for-the-badge](https://telegram.dog/Dlaize)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/Compass_Botz)
+[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20me-anything-1abc9c.svg&style=for-the-badge)](https://telegram.dog/Dlaize)
 
 ## Mapping
 [Deploy to Heroku 🗳](https://github.com/dakshkohli23/New-TG-Rename-Bot#deploy-to-heroku-)
