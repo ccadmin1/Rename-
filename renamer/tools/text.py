@@ -32,22 +32,26 @@ class TEXT:
 ꜰᴏʀ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ꜱᴇᴄᴛɪᴏɴ!
 """
 
-    START_TEXT = """ʜᴇʏ! {user_mention},
-ɪ'ᴍ ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ!⚡.
+    START_TEXT = """ʜᴇʏ! {user_mention} ꜱʜɪɴᴏʙɪ 🥷,
+ɪ'ᴍ ɴᴀʀᴜᴛᴏ ᴜᴢᴜᴍᴀᴋɪ
+ᴛᴇʟᴇɢʀᴀᴍ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘᴇʀᴍᴀɴᴇɴᴛ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ ɪꜱ ᴍʏ ɴɪɴᴊᴀ ᴡᴀʏ!⚡.
 
 <b>ᴅᴏ /help ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ...</b>
-**ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ:** {bot_owner}
+**ʜᴏᴋᴀɢᴇ:** {bot_owner}
 """
 
 
-    DONATE_USER = """**__Thanks for showing interest in donation.__**
+    DONATE_USER = """**ʏᴏᴜ'ʀᴇ ᴀᴛ ɪᴄʜɪʀᴀᴋᴜ ʀᴀᴍᴇɴ
+ᴅᴏɴᴀᴛᴇ ꜱᴏᴍᴇ ʀᴀᴍᴇɴ ᴛᴏ ʜᴏᴋᴀɢᴇ**
+
+🌀 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴛᴏ ᴋᴇᴇᴘ ᴋᴏɴᴏʜᴀɢᴀᴋᴜʀᴇ ᴠɪʟʟᴀɢᴇ ᴀʟɪᴠᴇ
+🍜 10ʀꜱ ʀᴀᴍᴇɴ
+🍜 20ʀꜱ ʀᴀᴍᴇɴ
+🍜 30ʀꜱ ʀᴀᴍᴇɴ
+🍜 50ʀꜱ ʀᴀᴍᴇɴ
+🍜 100ʀꜱ ʀᴀᴍᴇɴ
  
-Donate us to keep our services continously alive
-You can send any amount 
-of 20rs, 30rs, 50rs, 70rs, 100rs, 200rs
+**ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ**
+ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ᴘᴀʏᴘᴀʟ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ
  
-__--Payment Methods:--__
- 
-GooglePay / Paytm / PhonPay / paypal / Net Banking
- 
-**For Donate:** Message me @Dlaize"""
+**ᴄᴏɴᴛᴀᴄᴛ ʜᴏᴋᴀɢᴇ:** @Dlaize"""
