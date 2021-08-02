@@ -101,5 +101,5 @@ login - (when password is given) to login to bot
 
 ## Thanks And Credits 🎉
 [SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDlBot](https://github.com/SpEcHiDe/AnyDLBot)
-
+[Source](https://github.com/Ns-Bots/TG-RENAMER-BOT)
 [Dan](https://telegram.dog/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram)
