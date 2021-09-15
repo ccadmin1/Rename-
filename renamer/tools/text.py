@@ -38,6 +38,4 @@ class TEXT:
 """
 
 
-    DONATE_USER = """**nothing
- 
-**"""
+    DONATE_USER = """👤 : @DhashamoolamDhamu """
