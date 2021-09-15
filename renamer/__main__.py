@@ -30,7 +30,7 @@ def main():
     startup_msg = f"⚡ Boot Successfull at @{me.username}\n"
     startup_msg += f"Pyrogram Version: v{__version__}\n"
     startup_msg += f"Python Version: v{platform.python_version()}\n\n"
-    startup_msg += "Deploying has been done. Follow Our Channel @Compass_Botz"
+    startup_msg += "Deploying has been done. Follow Our Channel @Cinemacollections"
     print(startup_msg)
 
     idle()
