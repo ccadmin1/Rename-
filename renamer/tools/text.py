@@ -14,12 +14,11 @@ class TEXT:
 
     ABOUT = """**Bot Info**
 
-** ➜ My Name:** {bot_name}
+** ➜ My Name:** {bot_name} ⚡️
 ** ➜ Language:** [Python 3](https://www.python.org/)
 ** ➜ FrameWork:** [Pyrogram](https://github.com/pyrogram/pyrogram)
 ** ➜ Developer:** {bot_owner}
-** ➜ Channel:** [Compass Botz](https://t.me/Compass_Botz)
-** ➜ Source Code:** [Press Me](https://github.com/dakshkohli23/New-TG-Rename-Bot)
+** ➜ Channel:** [Cinemacollections](https://t.me/Cinemacollections)
 """
 
     HELP_USER = """**🚨 ᴏʜ! ʏᴏᴜ ɴᴇᴇᴅ ʜᴇʟᴘ!**
@@ -41,17 +40,6 @@ class TEXT:
 """
 
 
-    DONATE_USER = """**ʏᴏᴜ'ʀᴇ ᴀᴛ ɪᴄʜɪʀᴀᴋᴜ ʀᴀᴍᴇɴ
-ᴅᴏɴᴀᴛᴇ ꜱᴏᴍᴇ ʀᴀᴍᴇɴ ᴛᴏ ʜᴏᴋᴀɢᴇ**
-
-🌀 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴛᴏ ᴋᴇᴇᴘ ᴋᴏɴᴏʜᴀɢᴀᴋᴜʀᴇ ᴠɪʟʟᴀɢᴇ ᴀʟɪᴠᴇ
-🍜 10ʀꜱ ʀᴀᴍᴇɴ
-🍜 20ʀꜱ ʀᴀᴍᴇɴ
-🍜 30ʀꜱ ʀᴀᴍᴇɴ
-🍜 50ʀꜱ ʀᴀᴍᴇɴ
-🍜 100ʀꜱ ʀᴀᴍᴇɴ
+    DONATE_USER = """**nothing
  
-**ᴘᴀʏᴍᴇɴᴛ ᴍᴇᴛʜᴏᴅ**
-ɢᴏᴏɢʟᴇᴘᴀʏ / ᴘᴀʏᴛᴍ / ᴘʜᴏɴᴘᴀʏ / ᴘᴀʏᴘᴀʟ / ɴᴇᴛ ʙᴀɴᴋɪɴɢ
- 
-**ᴄᴏɴᴛᴀᴄᴛ ʜᴏᴋᴀɢᴇ:** @Dlaize"""
+**"""
