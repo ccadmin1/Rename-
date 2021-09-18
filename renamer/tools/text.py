@@ -31,7 +31,8 @@ class TEXT:
 ꜰᴏʀ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴄʜᴇᴄᴋ ᴀʙᴏᴜᴛ ꜱᴇᴄᴛɪᴏɴ!
 """
 
-    START_TEXT = """ʜᴇʏ! {user_mention} I'm a Simple Telegram File or Media RenameBot v2.3 with Permanent Thumbnail Support!⚡.
+    START_TEXT = """ʜᴇʏ! {user_mention} I'ᴍ ᴀ Sɪᴍᴘʟᴇ Tᴇʟᴇɢʀᴀᴍ Fɪʟᴇ ᴏʀ Mᴇᴅɪᴀ RᴇɴᴀᴍᴇBᴏᴛ ᴠ2.3 ᴡɪᴛʜ Pᴇʀᴍᴀɴᴇɴᴛ Tʜᴜᴍʙɴᴀɪʟ Sᴜᴘᴘᴏʀᴛ!⚡.
+!⚡.
 
 <b>ᴅᴏ /help ꜰᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟꜱ...</b>
 **Developer:** {bot_owner}
