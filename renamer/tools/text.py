@@ -3,7 +3,7 @@ from pyrogram.emoji import *
 class TEXT:
     DOWNLOAD_START = f"**📥 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...**"
     UPLOAD_START = f"**📤 ᴜᴘʟᴏᴀᴅɪɴɢ...**"
-    UPLOAD_SUCESS = f"ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ | ꜱʜᴀʀᴇ > ⚡"
+    UPLOAD_SUCESS = f"ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ | ꜱʜᴀʀᴇ > ⚡await m.reply_sticker(sticker="CAACAgEAAxkBAALOYWFKG9AZvVk90oMeprbeE9xGnwN2AAIDCQAC43gEAAGmNc2l6ho94iEE", quote=True)"
     BANNED_USER_TEXT = f"Hey, you are **banned** from using me {FACE_WITH_TEARS_OF_JOY}."
     NOT_LOGGED_TEXT = f"This bot was only for private use {LOCKED_WITH_KEY}. If you want to use this bot you need to send me correct password in the format `/login bot_password`"
     SAVED_CUSTOM_THUMBNAIL = f"**✅ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ ᴘᴇʀᴍᴀɴᴇɴᴛʟʏ**"
