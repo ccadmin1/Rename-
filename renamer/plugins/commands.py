@@ -57,7 +57,7 @@ async def start(c, m, cb=False):
             reply_markup=reply_markup
         )
     else:
-        await m.reply_sticker(sticker="CAACAgIAAxkBAALNA2FCBUolEm4hnhhsldIN0uIPRntkAAJAAQACihKqDoUutjCa9vBfIAQ", quote=True)
+        await m.reply_sticker(sticker="CAACAgEAAxkBAALOYWFKG9AZvVk90oMeprbeE9xGnwN2AAIDCQAC43gEAAGmNc2l6ho94iEE", quote=True)
         await m.reply_text(
             text=TEXT.START_TEXT.format(user_mention=m.from_user.mention, bot_owner=owner.mention(style="md")), 
             disable_web_page_preview=True,
