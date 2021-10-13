@@ -1,6 +1,5 @@
 
 import logging
-import time
 logger = logging.getLogger(__name__)
 
 from ..config import Config
@@ -9,7 +8,6 @@ from ..database.database import *
 from pyrogram import Client as Compass_Botz, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
-from db.mongo import insert, getid
 
 ################## Help command ##################
 
@@ -38,19 +36,6 @@ async def help(c, m, cb=False):
 
 
 ################## start commamd ##################
-
-@Compass_Botz.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
-async def broadcast(bot, message):
- if (message.reply_to_message):
-   ms = await message.reply_text("Geting All ids from database ...........")
-   ids = getid()
-   tot = len(ids)
-   await ms.edit(f"Starting Broadcast .... \n Sending Message To {tot} Users")
-   for id in ids:
-     try:
-     	await message.reply_to_message.copy(id)
-     except:
-     	pass
 
 @Compass_Botz.on_message(filters.command("start") & filters.private & filters.incoming)
 async def start(c, m, cb=False):
