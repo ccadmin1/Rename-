@@ -1,5 +1,6 @@
 
 import logging
+import time
 logger = logging.getLogger(__name__)
 
 from ..config import Config
@@ -8,7 +9,7 @@ from ..database.database import *
 from pyrogram import Client as Compass_Botz, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram.emoji import *
-
+from db.mongo import insert, getid
 
 ################## Help command ##################
 
